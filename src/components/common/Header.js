@@ -13,11 +13,12 @@ const Header = (props) => {
 
 const styles = {
 	viewStyle: {
-		backgroundColor: '#E90D71',
+		backgroundColor: '#FF0E88',
 		justifyContent: 'center',
 		alignItems: 'center',
 		height: 60,
 		paddingTop: 25,
+		paddingBottom: 10,
 		shadowColor: '#000',
 		shadowOffset: { width: 0, height: 2 },
 		shadowOpacity: 0.2,
@@ -30,4 +31,4 @@ const styles = {
 	}
 }
 
-export default Header
+export { Header }

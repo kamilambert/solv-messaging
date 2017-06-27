@@ -2,11 +2,11 @@ import React from 'react'
 import { Text, TouchableOpacity } from 'react-native'
 import Communications from 'react-native-communications'
 
-const Button = () => {
+const Button = ({ onPress, children }) => {
 	return (
-		<TouchableOpacity onPress={() => Communications.text('6508683130', 'this is awesome!')} style={styles.buttonStyle}>
+		<TouchableOpacity onPress={onPress} style={styles.buttonStyle}>
 			<Text style={styles.textStyle}>
-				Send Text
+				{children}
 			</Text>
 		</TouchableOpacity>
 	)
@@ -33,4 +33,4 @@ const styles = {
 	}
 }
 
-export default Button
+export { Button }
