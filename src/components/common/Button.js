@@ -1,6 +1,5 @@
 import React from 'react'
 import { Text, TouchableOpacity } from 'react-native'
-import Communications from 'react-native-communications'
 
 const Button = ({ onPress, children }) => {
 	return (
