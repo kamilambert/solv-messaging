@@ -13,7 +13,7 @@ export default class PhoneNumberInput extends Component {
 
 	onTextPress = () => {
 		const { phone } = this.state
-		phone.length === 10 ? Communications.text(phone, 'I just booked an appointment using Solv and it was awesome. You should check them out! http://www.solvhealth.com') : Alert.alert('Please Complete Number', 'Phone number must be 10 digits')
+		phone.length === 10 ? Communications.text(phone, 'I just booked an appointment using Solv and it was awesome. You should check them out! https://www.solvhealth.com') : Alert.alert('Please Complete Number', 'Phone number must be 10 digits')
 	}
 
 	render() {
