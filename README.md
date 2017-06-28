@@ -21,4 +21,4 @@ After waiting a minute (or two) for bundling to finish, Xcode iOS simulator shou
 
 ## Full Functionality on Device
 
-![solv demo](http://i.imgur.com/3KphfEn.gif)
+<img src='./src/img/solvscreencast.gif'>
