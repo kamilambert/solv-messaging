@@ -1,6 +1,6 @@
 # Solv Messaging
 
-This app allows users to share Solv via text with their friends using native iOS Messages.
+This app allows users to share [Solv](https://www.solvhealth.com/) via text with their friends using native iOS Messages.
 
 ## Initial Setup
 
